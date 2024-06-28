@@ -1,9 +1,11 @@
-function App() {
-    return (
-        <div className="bg-blue-950">
+import Home from "./components/Home"
 
-        </div>
-    )
+function App() {
+	return (
+		<div className="bg-blue-950">
+			<Home />
+		</div>
+	)
 }
 
 export default App
