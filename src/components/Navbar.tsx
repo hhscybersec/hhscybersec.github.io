@@ -26,7 +26,7 @@ const Navbar = () => {
 					animationDuration={0.5}
 				/>
 			</div>
-			<div className={`flex-col ${isOpen ? 'flex' : 'hidden'} md:flex md:flex-row md:gap-5 absolute md:static top-16 left-0 right-0 bg-black md:bg-transparent`}>
+			<div className={`flex-col ${isOpen ? 'flex' : 'hidden'} md:flex md:flex-row md:gap-5 absolute md:static top-20 left-8 right-0 bg-slate-900 md:bg-transparent`}>
 				<Link to={'/about'} onClick={handleLinkClick}><h4>About Us</h4></Link>
 				<Link to={'/meetings'} onClick={handleLinkClick}><h4>Meetings</h4></Link>
 				<Link to={'/challenges'} onClick={handleLinkClick}><h4>Challenges</h4></Link>
