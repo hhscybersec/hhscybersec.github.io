@@ -1,10 +1,12 @@
 const About = () => {
-  return (
-    <div>
-        <h1>About Us</h1>
-        <h3>Coming Soon</h3>
-    </div>
-  )
+	return (
+		<div>
+			<div className="text-center leading-loose py-8">
+				<h1>About Us</h1>
+				<p className="text-gray-400">Coming Soon</p>
+			</div>
+		</div>
+	)
 }
 
 export default About

@@ -1,8 +1,10 @@
 const Challenges = () => {
 	return (
 		<div>
-			<h1>Challenges</h1>
-			<h3>Coming Soon</h3>
+			<div className="text-center leading-loose py-8">
+				<h1>Challenges</h1>
+				<p className="text-gray-400">Coming Soon</p>
+			</div>
 		</div>
 	)
 }
