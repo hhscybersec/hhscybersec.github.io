@@ -16,7 +16,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className="px-8 py-6 flex flex-row justify-between items-center">
+		<nav className="px-8 py-6 flex flex-row justify-between items-center w-full">
 			<Link to={'/'}><h4>HHS Cybersecurity</h4></Link>
 			<div className="md:hidden">
 				<HamburgerMenu
