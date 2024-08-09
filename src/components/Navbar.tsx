@@ -31,7 +31,7 @@ const Navbar = () => {
 			<div className={`flex-col ${isOpen ? 'flex' : 'hidden'} md:flex md:flex-row md:gap-5 absolute md:static top-20 left-8 right-0 bg-slate-900 md:bg-transparent`}>
 				<Link to={'/about'} onClick={handleLinkClick}><h4 className='text-white hover:text-teal-300 transition-colors duration-300'>About Us</h4></Link>
 				<Link to={'/meetings'} onClick={handleLinkClick}><h4 className='text-white hover:text-teal-300 transition-colors duration-300'>Meetings</h4></Link>
-				<Link to={'/challenges'} onClick={handleLinkClick}><h4 className='text-white hover:text-teal-300 transition-colors duration-300'>Challenges</h4></Link>
+				{/* <Link to={'/challenges'} onClick={handleLinkClick}><h4 className='text-white hover:text-teal-300 transition-colors duration-300'>Challenges</h4></Link> */}
 				<Link to={'/leaderboard'} onClick={handleLinkClick}><h4 className='text-white hover:text-teal-300 transition-colors duration-300'>Leaderboard</h4></Link>
 			</div>
 			{user ? (
