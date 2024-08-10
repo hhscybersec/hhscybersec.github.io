@@ -1,11 +1,9 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import HamburgerMenu from 'react-hamburger-menu';
-import { useUser } from '../contexts/UserContext';
 
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
-	const { user } = useUser();
 
 	const handleClick = () => {
 		setIsOpen(!isOpen);
@@ -34,11 +32,13 @@ const Navbar = () => {
 				<Link to={'/resources'} onClick={handleLinkClick}><h4 className='p-0 m-0 text-white hover:text-teal-300 transition-colors duration-300'>Resources</h4></Link>
 				<Link to={'/leaderboard'} onClick={handleLinkClick}><h4 className='p-0 m-0 text-white hover:text-teal-300 transition-colors duration-300'>Leaderboard</h4></Link>
 			</div>
-			{user ? (
+			<h4 className='m-0 p-0'><a href="" target='_blank'>Join our Discord</a></h4>
+
+			{/* {user ? (
 				<Link to={'/signout'} onClick={handleLinkClick} className='hidden md:flex'><h4 className='p-0 m-0 text-teal-300'>Welcome, {user.email}</h4></Link>
 			) : (
 				<Link to={'/signin'} onClick={handleLinkClick} className='hidden md:flex'><h4 className='p-0 m-0 text-teal-300'>Sign In</h4></Link>
-			)}
+			)} */}
 		</nav>
 	);
 }
