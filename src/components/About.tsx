@@ -10,16 +10,14 @@ const About = () => {
 			<div className="w-fit m-auto">
 				<h2 className='text-center pb-6'>Officers</h2>
 				<div className='pb-8 w-4/5 sm:w-3/4 md:w-2/3 lg:w-3/4 xl:w-4/5 m-auto grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6'>
-					<Officer name="Name" position="Position" picture="/officers/placeholder.webp"/>
-					<Officer name="Name" position="Position" picture="/officers/placeholder.webp"/>
-					<Officer name="Name" position="Position" picture="/officers/placeholder.webp"/>
-					<Officer name="Name" position="Position" picture="/officers/placeholder.webp"/>
-					<Officer name="Name" position="Position" picture="/officers/placeholder.webp"/>
-					<Officer name="Name" position="Position" picture="/officers/placeholder.webp"/>
-					<Officer name="Name" position="Position" picture="/officers/placeholder.webp"/>
-					<Officer name="Name" position="Position" picture="/officers/placeholder.webp"/>
-					<Officer name="Name" position="Position" picture="/officers/placeholder.webp"/>
-					<Officer name="Name" position="Position" picture="/officers/placeholder.webp"/>
+					<Officer name="Armaan Gomes" position="President" picture="/officers/placeholder.webp"/>
+					<Officer name="Soham Nanawati" position="Vice President" picture="/officers/placeholder.webp"/>
+                    <Officer name="Ethan Thomas" position="Position" picture="/officers/placeholder.webp"/>
+                    <Officer name="Dilen Panchal" position="Position" picture="/officers/placeholder.webp"/>
+					<Officer name="Prasmit Kondawar" position="Position" picture="/officers/placeholder.webp"/>
+					<Officer name="Ofek Sadeh" position="Position" picture="/officers/placeholder.webp"/>
+					<Officer name="Nikolai Jensen" position="Workshops Director" picture="/officers/placeholder.webp"/>
+					<Officer name="Revati Tambe" position="Website Manager" picture="/officers/placeholder.webp"/>
 				</div>
 			</div>
 		</div>
