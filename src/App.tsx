@@ -8,10 +8,13 @@ import Challenges from './components/Challenges'
 import Leaderboard from './components/Leaderboard'
 import Footer from './components/Footer'
 
+import CookiesSetup from './components/CookiesSetup';
+
 function App() {
 	return (
 		<div className="bg-slate-900">
 			<BrowserRouter>
+                <CookiesSetup />
 				<Navbar />
 				<Routes>
 					<Route path='/' element={<Home />}></Route>
