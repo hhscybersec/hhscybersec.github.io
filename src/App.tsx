@@ -5,7 +5,6 @@ import About from './components/About'
 import Meetings from './components/Meetings'
 import Resources from './components/Resources'
 import Challenges from './components/Challenges'
-import Leaderboard from './components/Leaderboard'
 import Footer from './components/Footer'
 
 import CookiesSetup from './components/CookiesSetup';
@@ -22,7 +21,6 @@ function App() {
 					<Route path='/meetings' element={<Meetings />}></Route>
 					<Route path='/resources' element={<Resources />}></Route>
 					<Route path='/challenges' element={<Challenges />}></Route>
-					<Route path='/leaderboard' element={<Leaderboard />}></Route>
 				</Routes>
 				<Footer />
 			</BrowserRouter>
