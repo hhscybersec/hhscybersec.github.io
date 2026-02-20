@@ -1,8 +1,10 @@
+import HackerText from './HackerText';
+
 const Resources = () => {
 	return (
 		<div>
 			<div className="text-center leading-loose py-8">
-				<h1>Resources</h1>
+				<h1><HackerText text="Resources" trigger="load" /></h1>
 				<p className="text-gray-400 leading-snug w-3/4 md:w-1/2 lg:w-1/3 m-auto">Essential tools, guides, and challenges to sharpen your cybersecurity skills and enhance your knowledge.</p>
 			</div>
 			<div className="w-11/12 md:w-2/3 m-auto">

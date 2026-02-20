@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import HamburgerMenu from 'react-hamburger-menu';
+import HackerText from './HackerText';
 
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -27,9 +28,9 @@ const Navbar = () => {
 				/>
 			</div>
 			<div className={`flex-col ${isOpen ? 'flex' : 'hidden'} md:flex md:flex-row md:gap-5 absolute md:static top-20 left-8 right-0 bg-slate-900 md:bg-transparent`}>
-				<Link to={'/about'} onClick={handleLinkClick}><h4 className='p-0 m-0 text-white hover:text-teal-300 transition-colors duration-300'>About Us</h4></Link>
-				<Link to={'/meetings'} onClick={handleLinkClick}><h4 className='p-0 m-0 text-white hover:text-teal-300 transition-colors duration-300'>Meetings</h4></Link>
-				<Link to={'/resources'} onClick={handleLinkClick}><h4 className='p-0 m-0 text-white hover:text-teal-300 transition-colors duration-300'>Resources</h4></Link>
+				<Link to={'/about'} onClick={handleLinkClick}><h4 className='p-0 m-0 text-white hover:text-teal-300 transition-colors duration-300'><HackerText text="About Us" /></h4></Link>
+				<Link to={'/meetings'} onClick={handleLinkClick}><h4 className='p-0 m-0 text-white hover:text-teal-300 transition-colors duration-300'><HackerText text="Meetings" /></h4></Link>
+				<Link to={'/resources'} onClick={handleLinkClick}><h4 className='p-0 m-0 text-white hover:text-teal-300 transition-colors duration-300'><HackerText text="Resources" /></h4></Link>
 			</div>
 			<h4 className='m-0 p-0'><a href="" target='_blank'>Join our Discord</a></h4>
 		</nav>
