@@ -15,7 +15,7 @@ To get this project running locally on your machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/hhs-cyber-club.git](https://github.com/your-username/hhs-cyber-club.git)
+   git clone [https://github.com/hhscybersec/hhscybersec.github.io](https://github.com/hhscybersec/hhscybersec.github.io)
    ```
 
 2. **Navigate into the directory:**
