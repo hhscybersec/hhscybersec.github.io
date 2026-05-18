@@ -21,6 +21,10 @@ const Meetings = () => {
                 <Workshop number={9} title={"Blockchain"} date={"1/26/2026"} slidesLink={"https://docs.google.com/presentation/d/19UYzLI3tkMtPq9gx4XWhGKnNj7XZNCl0Vm3o23jJwiI/edit?usp=sharing"} />
                 <Workshop number={10} title={"DDoS Attacks"} date={"2/2/2026"} slidesLink={"https://docs.google.com/presentation/d/1FCSjXBf0dhVSyWbK-PeajWS18cwfagk0vmyqS925gaU/edit?usp=sharing"} />
                 <Workshop number={11} title={"Networking Protocols"} date={"2/9/2026"} slidesLink={"https://docs.google.com/presentation/d/1TGMO3lVyqDqbc7tVJ7iTgE4KCiqyomdRN7kEdUmW56c/edit?usp=sharing"} />
+                <Workshop number={13} title={"Web Scrapers"} date={"3/8/2026"} slidesLink={"https://docs.google.com/presentation/d/1FGyVZucAYrAtvYj9xyuRvQ5QkXo5HCaKyl-vbeU_2fQ/edit?usp=sharing"} />
+                <Workshop number={14} title={"Firewalls"} date={"3/22/2026"} slidesLink={"https://docs.google.com/presentation/d/1KNKqhE3k62l6B6-kdJB8wtyLPKRybILWhZYtxezF52g/edit?usp=sharing"} />
+                <Workshop number={16} title={"Review Jeopardy"} date={"4/20/2026"} slidesLink={"https://docs.google.com/presentation/d/10frO62lnI3w8bFZ4NedshkDUgvqikKl2JN89UB9sh7g/edit?usp=sharing"} />
+                <Workshop number={17} title={"Final Meeting"} date={"4/27/2026"} slidesLink={"https://docs.google.com/presentation/d/1ag-D8dQZtSfplOpDoDn7x_cAgeYI3297QMzZ0uvM5ro/edit?usp=sharing"} />
             </div>
 		</div>
 	)
