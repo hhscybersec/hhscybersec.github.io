@@ -13,7 +13,7 @@ const Home = () => {
                 </h1>
             
                 <h4 className="mt-4 text-teal-300 font-mono text-lg">
-                    <HackerText text="Fridays at 5 PM in C200" trigger="load" />
+                    <HackerText text="Tuesdays at 3 PM in Juneau, AK" trigger="load" />
                 </h4>
             </div>
         </div>
